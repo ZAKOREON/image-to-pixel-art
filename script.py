@@ -1,3 +1,7 @@
+# 画像を16*16のドット絵に変換します。
+# 色味を変えたい場合はPILのImageEnhanceを使用してください。
+# 正方形でない画像を入力した場合は、画像の左上の角から短辺の長さに合わせて正方形にトリミングされます。
+
 from PIL import Image
 
 img = Image.open(r"target.png")
